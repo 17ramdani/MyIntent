@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/langar"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="My Intent"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/langar"
+        android:text="Pindah Activity" />
+
+    <Button
+        android:id="@+id/btn_move_activity_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/langar"
+        android:text="Pindah Activity dengan Data" />
+
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/langar"
+        android:text="Dial a Number" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cat" />
+
+</LinearLayout>
